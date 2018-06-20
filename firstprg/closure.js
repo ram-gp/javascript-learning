@@ -1,3 +1,5 @@
+/*Closure functionality */
+
 var a=10;  
 function func1(){
 	a = a+1;
@@ -13,8 +15,6 @@ function func3(){
 	a = a+1;
 	console.log(a);
 }
-
-
 console.log(a); // 10
 func1(); // 11
 console.log(a); //11
